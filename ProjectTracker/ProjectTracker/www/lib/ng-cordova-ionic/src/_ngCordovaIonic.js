@@ -1,1 +1,0 @@
-angular.module('ngCordovaIonic', ['ngCordova']);
