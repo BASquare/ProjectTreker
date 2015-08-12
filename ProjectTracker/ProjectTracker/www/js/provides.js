@@ -8,8 +8,7 @@ angular.module('starter.provides', [])
 
             $stateProvider.state('map', {
                 url: '/map',
-                templateUrl: 'templates/map.html'
-                       
+                templateUrl: 'templates/map.html'                       
             });
             $stateProvider.state('hello', {
                 url: '/hello',

@@ -6,4 +6,5 @@ ProjectTracker/ProjectTracker/www/lib/angular-ui-router/
 ProjectTracker/ProjectTracker/www/lib/ionic/
 ProjectTracker/ProjectTracker/www/lib/lodash/
 ProjectTracker/ProjectTracker/www/lib/ngCordova/
+ProjectTracker/ProjectTracker/www/lib/ng-cordova-ionic/
 *.suo
