@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Ionic Starter App
 
 
@@ -97,3 +98,14 @@ angular.module('starter', ['ionic', 'ngCordova', 'provides'])
         });
 
 
+=======
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives', 'starter.provides'])
+
+.run(function($ionicPlatform) {
+  $ionicPlatform.ready(function() {
+    if(window.StatusBar) {
+      StatusBar.styleDefault();
+    }
+  });
+})
+>>>>>>> origin/master
