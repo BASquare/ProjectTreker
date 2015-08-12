@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 // Ionic Starter App
 
 
@@ -99,6 +101,7 @@ angular.module('starter', ['ionic', 'ngCordova', 'provides'])
 
 
 =======
+>>>>>>> Work-1
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives', 'starter.provides'])
 
 .run(function($ionicPlatform) {
@@ -108,4 +111,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
     }
   });
 })
+<<<<<<< HEAD
+=======
 >>>>>>> origin/master
+>>>>>>> Work-1
