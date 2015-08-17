@@ -1,6 +1,3 @@
-/* Empty. Add your own CSS if you like */
- 
-
 map {
   display: block;
   width: 100%;
@@ -15,12 +12,11 @@ map {
     font-weight:bold;
 }
 .map_button {
-    background:#009900;
+    background:#3c3c3c;
     padding:8px 35px;
     color:#fff;
     opacity:0.9;
     margin-left:27px; 
-    
 }
 .top_button{
     margin-top:40px;
@@ -33,4 +29,21 @@ map {
     padding-top:100px;
     color:#fff;
     opacity:0.2;
+}
+.scroll {
+	height: 100%;
+}
+
+.angular-google-map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#map_canvas {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: relative;
 }

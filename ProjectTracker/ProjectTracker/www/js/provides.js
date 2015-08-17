@@ -3,8 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-angular.module('starter.provides', [])
-        .config(function ($stateProvider, $urlRouterProvider) {
+angular.module('starter.provides', ['uiGmapgoogle-maps', 'ngCordova'])
+        .config(function ($stateProvider, $urlRouterProvider, uiGmapGoogleMapApiProvider) {
+            uiGmapGoogleMapApiProvider.configure({
+                key: 'AIzaSyDFberVyWaVDCxFLaRxYLxUuSd4uPb_I2s',
+                v: '3.17',
+                libraries: 'weather,geometry,visualization',
+                language: 'en',
+                sensor: 'false'
+            });
 
             $stateProvider.state('map', {
                 url: '/map',
@@ -13,7 +20,8 @@ angular.module('starter.provides', [])
             });
             $stateProvider.state('hello', {
                 url: '/hello',
-                templateUrl: 'templates/hello.html'
+                templateUrl: 'templates/hello.html',
+                //controller: 'MapCtrl'
                  
             });
             $stateProvider.state('index', {
@@ -23,4 +31,5 @@ angular.module('starter.provides', [])
             });
             $urlRouterProvider.otherwise('index.html');
         });
+
 
